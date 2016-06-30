@@ -5,6 +5,9 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
+  function isTyler(name) {
+  	return name == 'Tyler' ? true : false;
+  }
 
 //////////////////PROBLEM 2////////////////////
 
@@ -13,6 +16,10 @@ var name = 'Tyler';
 
 
   //Code Here
+  function getName() {
+  	var name = prompt('What is your name?');
+  	return name;
+  }
 
 
 //////////////////PROBLEM 3////////////////////
@@ -23,6 +30,9 @@ var name = 'Tyler';
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
+  function welcome() {
+  	alert('Welcome ' + getName())
+  }
 
 
 //////////////////PROBLEM 4////////////////////
@@ -33,6 +43,7 @@ var name = 'Tyler';
 //What is the difference between arguments and parameters?
 
   //Answer Here
+  
 
 
 //////////////////PROBLEM 5////////////////////
