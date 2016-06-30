@@ -43,7 +43,7 @@ var name = 'Tyler';
 //What is the difference between arguments and parameters?
 
   //Answer Here
-  
+  // Parameters are the 'things' you feed into the functions, whereas arguments are the actual values of those parameters
 
 
 //////////////////PROBLEM 5////////////////////
@@ -54,6 +54,8 @@ var name = 'Tyler';
 
 
   //Answer Here
+  // false, NaN, 0, "", null, undefined
+  // use a statement like if (!x), or simply !x. If this gives you true, then x is falsy
 
 
 
@@ -64,15 +66,19 @@ var name = 'Tyler';
 //Create a function called myName that returns your name
 
   //Code Here
+  function myName() {
+  	return 'Candice Humpherys';
+  }
   
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
+  var newMyName = myName();
 
 //Now alert the result of invoking newMyName
-
+alert(newMyName);
 
 
 //////////////////PROBLEM 7////////////////////
@@ -82,9 +88,16 @@ var name = 'Tyler';
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
+  function outerFn() {
+  	return function() {
+  		return 'Candice Humpherys';
+  	}
+  }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
+  var innerFn = outerFn();
 
 //Now invoke innerFn.
+innerFn();
