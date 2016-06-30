@@ -56,6 +56,7 @@ var name = 'Tyler';
   //Answer Here
   // false, NaN, 0, "", null, undefined
   // use a statement like if (!x), or simply !x. If this gives you true, then x is falsy
+  // or something like (x == false) and if it gives true, then it's falsy. But that's confusing...
 
 
 
